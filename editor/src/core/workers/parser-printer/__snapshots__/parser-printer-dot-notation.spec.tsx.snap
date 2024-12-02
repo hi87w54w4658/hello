@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JSX parser should parse out dot-notation element names 1`] = `
+Object {
+  "react": Object {
+    "importedAs": "React",
+    "importedFromWithin": Array [],
+    "importedWithName": null,
+  },
+  "utopia-api": Object {
+    "importedAs": "Utopia",
+    "importedFromWithin": Array [],
+    "importedWithName": null,
+  },
+}
+`;
+
+exports[`JSX parser should parse out dot-notation element names 2`] = `
+Array [
+  Object {
+    "importStarAs": true,
+    "importWithName": false,
+    "imports": Array [],
+    "module": "react",
+    "rawCode": "import * as React from 'react'",
+    "type": "IMPORT_STATEMENT",
+  },
+  Object {
+    "rawCode": "
+",
+    "type": "UNPARSED_CODE",
+  },
+  Object {
+    "importStarAs": true,
+    "importWithName": false,
+    "imports": Array [],
+    "module": "utopia-api",
+    "rawCode": "import * as Utopia from 'utopia-api'",
+    "type": "IMPORT_STATEMENT",
+  },
+  Object {
+    "rawCode": "
+
+",
+    "type": "UNPARSED_CODE",
+  },
+  Object {
+    "arbitraryJSBlock": null,
+    "blockOrExpression": "block",
+    "declarationSyntax": "var",
+    "functionWrapping": Array [],
+    "isFunction": true,
+    "name": "App",
+    "params": Array [
+      Object {
+        "boundParam": Object {
+          "defaultExpression": null,
+          "paramName": "props",
+          "type": "REGULAR_PARAM",
+        },
+        "dotDotDotToken": false,
+        "type": "PARAM",
+      },
+    ],
+    "propsUsed": Array [],
+    "returnStatementComments": Object {
+      "leadingComments": Array [],
+      "trailingComments": Array [],
+    },
+    "rootElement": Object {
+      "children": Array [
+        Object {
+          "comments": Object {
+            "leadingComments": Array [],
+            "trailingComments": Array [],
+          },
+          "definedElsewhere": Array [
+            "React",
+            "utopiaCanvasJSXLookup",
+          ],
+          "elementsWithin": Object {
+            "bbb": Object {
+              "children": Array [],
+              "name": Object {
+                "baseVariable": "div",
+                "propertyPath": Object {
+                  "propertyElements": Array [],
+                },
+              },
+              "props": Array [
+                Object {
+                  "comments": Object {
+                    "leadingComments": Array [],
+                    "trailingComments": Array [],
+                  },
+                  "key": "data-uid",
+                  "type": "JSX_ATTRIBUTES_ENTRY",
+                  "value": Object {
+                    "comments": Object {
+                      "leadingComments": Array [],
+                      "trailingComments": Array [],
+                    },
+                    "type": "ATTRIBUTE_VALUE",
+                    "uid": "",
+                    "value": "bbb",
+                  },
+                },
+              ],
+              "type": "JSX_ELEMENT",
+              "uid": "",
+            },
+          },
+          "javascriptWithUIDs": "<div data-uid='bbb' />;",
+          "originalJavascript": "<div data-uid='bbb' />",
+          "params": Array [],
+          "sourceMap": Object {
+            "file": "code.tsx",
+            "mappings": "OAMQA;AAAAA;AAAAA",
+            "names": Array [
+              "<",
+            ],
+            "sources": Array [
+              "code.tsx",
+            ],
+            "sourcesContent": Array [
+              "import * as React from 'react'
+import * as Utopia from 'utopia-api'
+
+export var App = (props) => {
+  return (
+    <Utopia.View data-uid='aaa'>
+      {<div data-uid='bbb' />}
+    </Utopia.View>
+  )
+}
+
+export var storyboard = (props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}
+",
+            ],
+            "version": 3,
+          },
+          "transpiledJavascript": "return utopiaCanvasJSXLookup(\\"bbb\\", {
+  callerThis: this
+});",
+          "type": "ATTRIBUTE_OTHER_JAVASCRIPT",
+          "uid": "",
+        },
+      ],
+      "name": Object {
+        "baseVariable": "Utopia",
+        "propertyPath": Object {
+          "propertyElements": Array [
+            "View",
+          ],
+        },
+      },
+      "props": Array [
+        Object {
+          "comments": Object {
+            "leadingComments": Array [],
+            "trailingComments": Array [],
+          },
+          "key": "data-uid",
+          "type": "JSX_ATTRIBUTES_ENTRY",
+          "value": Object {
+            "comments": Object {
+              "leadingComments": Array [],
+              "trailingComments": Array [],
+            },
+            "type": "ATTRIBUTE_VALUE",
+            "uid": "",
+            "value": "aaa",
+          },
+        },
+      ],
+      "type": "JSX_ELEMENT",
+      "uid": "",
+    },
+    "type": "UTOPIA_JSX_COMPONENT",
+    "usedInReactDOMRender": false,
+  },
+  Object {
+    "rawCode": "
+
+",
+    "type": "UNPARSED_CODE",
+  },
+  Object {
+    "definedElsewhere": Array [
+      "React",
+      "Storyboard",
+      "Scene",
+      "App",
+      "utopiaCanvasJSXLookup",
+      "utopiaCanvasBlockRanToEnd",
+      "utopiaCanvasEarlyReturnResult",
+      "utopiaCanvasEarlyReturnVoid",
+    ],
+    "definedWithin": Array [
+      "storyboard",
+    ],
+    "elementsWithin": Object {},
+    "javascript": "export var storyboard = (props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}",
+    "params": Array [],
+    "sourceMap": Object {
+      "file": "code.tsx",
+      "mappings": "AAWOA,CAACC,MAAIC;AAAAA,MAAAA,UAAcC,GAAQE,KAADD,IAAIE;AAClCC,WACEC,oBAACC,UAADD;AAAYE,kBAASC;AAArBH,OACEA,oBAACI,KAADJ;AACEK,MAAAA,KAAKT,EAAEU;AAAEC,QAAAA,IAAIC,EAAEC,CAARH;AAAWI,QAAAA,GAAGF,EAAEC,CAAhBH;AAAmBK,QAAAA,KAAKH,EAAEI,GAA1BN;AAA+BO,QAAAA,MAAML,EAAEI;AAAvCN,OADTN;AAEEE,kBAASC;AAFXH,OAIEA,oBAACc,GAADd;AACEE,kBAASC,YADXH;AAEEK,MAAAA,KAAKT,EAAEU;AAAES,QAAAA,MAAMP,EAAEC,CAAVH;AAAaC,QAAAA,IAAIC,EAAEC,CAAnBH;AAAsBU,QAAAA,KAAKR,EAAEC,CAA7BH;AAAgCI,QAAAA,GAAGF,EAAEC;AAArCH;AAFTN,MAJFA,CADFA,CADFD;AAaFkB,GAdWvB;;AAAAA;AAAAA;AAAAA;AAcXuB,CAdMzB",
+      "names": Array [
+        " ",
+        "var",
+        "storyboard",
+        "props",
+        "=",
+        ">",
+        "
+",
+        "return",
+        "<",
+        "Storyboard",
+        "data",
+        "'",
+        "Scene",
+        "style",
+        "{",
+        "left",
+        ":",
+        "0",
+        "top",
+        "width",
+        "400",
+        "height",
+        "App",
+        "bottom",
+        "right",
+        "}",
+      ],
+      "sources": Array [
+        "code.tsx",
+      ],
+      "sourcesContent": Array [
+        "import * as React from 'react'
+import * as Utopia from 'utopia-api'
+
+export var App = (props) => {
+  return (
+    <Utopia.View data-uid='aaa'>
+      {<div data-uid='bbb' />}
+    </Utopia.View>
+  )
+}
+
+export var storyboard = (props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}
+",
+      ],
+      "version": 3,
+    },
+    "statements": Array [
+      Object {
+        "assignments": Array [
+          Object {
+            "leftHandSide": Object {
+              "defaultExpression": Object {
+                "comments": Object {
+                  "leadingComments": Array [],
+                  "trailingComments": Array [],
+                },
+                "definedElsewhere": Array [
+                  "React",
+                  "Storyboard",
+                  "Scene",
+                  "App",
+                ],
+                "elementsWithin": Object {},
+                "javascriptWithUIDs": "(props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+      style={{ left: 0, top: 0, width: 400, height: 400 }}
+      data-uid='scene-aaa'>
+
+        <App
+        data-uid='app-entity'
+        style={{ bottom: 0, left: 0, right: 0, top: 0 }} />
+
+      </Scene>
+    </Storyboard>);
+
+};",
+                "originalJavascript": "(props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}",
+                "params": Array [
+                  Object {
+                    "boundParam": Object {
+                      "defaultExpression": null,
+                      "paramName": "props",
+                      "type": "REGULAR_PARAM",
+                    },
+                    "dotDotDotToken": false,
+                    "type": "PARAM",
+                  },
+                ],
+                "sourceMap": Object {
+                  "file": "code.tsx",
+                  "mappings": "OAWyBA,SAAWC;AACjCC,SACEC;AAAYC,gBAAZD;AAAAA,KACEA,oBAACE,KAADF;AACEG,WAAOC;AAAEC,UAAIC,EAANF;AAAWG,SAAGD,EAAdF;AAAmBI,WAAKF,EAAxBF;AAA+BK,YAAMH,EAAtCF;AAACA,KADTJ;AAEEC,gBAFFD;AAAAA,KAIEA,oBAACU,GAADV;AACEC,gBAASU,YADXX;AAEEG,WAAOC;AAAEQ,YAAMN,EAARF;AAAaC,UAAIC,EAAjBF;AAAsBS,WAAKP,EAA3BF;AAAgCG,SAAGD,EAF5CN;AAESI;AAFTJ,IAJFA,CADFA,CADFD;AADqBe,CAACjB",
+                  "names": Array [
+                    "props",
+                    "
+",
+                    "return",
+                    "<",
+                    "data",
+                    "Scene",
+                    "style",
+                    "{",
+                    "left",
+                    ":",
+                    "top",
+                    "width",
+                    "height",
+                    "App",
+                    "'",
+                    "bottom",
+                    "right",
+                    "(",
+                  ],
+                  "sources": Array [
+                    "code.tsx",
+                  ],
+                  "sourcesContent": Array [
+                    "import * as React from 'react'
+import * as Utopia from 'utopia-api'
+
+export var App = (props) => {
+  return (
+    <Utopia.View data-uid='aaa'>
+      {<div data-uid='bbb' />}
+    </Utopia.View>
+  )
+}
+
+export var storyboard = (props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}
+",
+                  ],
+                  "version": 3,
+                },
+                "transpiledJavascript": "return props => {
+  return React.createElement(Storyboard, {
+    \\"data-uid\\": \\"utopia-storyboard-uid\\"
+  }, React.createElement(Scene, {
+    style: {
+      left: 0,
+      top: 0,
+      width: 400,
+      height: 400
+    },
+    \\"data-uid\\": \\"scene-aaa\\"
+  }, React.createElement(App, {
+    \\"data-uid\\": \\"app-entity\\",
+    style: {
+      bottom: 0,
+      left: 0,
+      right: 0,
+      top: 0
+    }
+  })));
+};",
+                "type": "ATTRIBUTE_OTHER_JAVASCRIPT",
+                "uid": "",
+              },
+              "paramName": "storyboard",
+              "type": "REGULAR_PARAM",
+            },
+            "rightHandSide": Object {
+              "comments": Object {
+                "leadingComments": Array [],
+                "trailingComments": Array [],
+              },
+              "definedElsewhere": Array [
+                "React",
+                "Storyboard",
+                "Scene",
+                "App",
+              ],
+              "elementsWithin": Object {},
+              "javascriptWithUIDs": "(props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+      style={{ left: 0, top: 0, width: 400, height: 400 }}
+      data-uid='scene-aaa'>
+
+        <App
+        data-uid='app-entity'
+        style={{ bottom: 0, left: 0, right: 0, top: 0 }} />
+
+      </Scene>
+    </Storyboard>);
+
+};",
+              "originalJavascript": "(props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}",
+              "params": Array [
+                Object {
+                  "boundParam": Object {
+                    "defaultExpression": null,
+                    "paramName": "props",
+                    "type": "REGULAR_PARAM",
+                  },
+                  "dotDotDotToken": false,
+                  "type": "PARAM",
+                },
+              ],
+              "sourceMap": Object {
+                "file": "code.tsx",
+                "mappings": "OAWyBA,SAAWC;AACjCC,SACEC;AAAYC,gBAAZD;AAAAA,KACEA,oBAACE,KAADF;AACEG,WAAOC;AAAEC,UAAIC,EAANF;AAAWG,SAAGD,EAAdF;AAAmBI,WAAKF,EAAxBF;AAA+BK,YAAMH,EAAtCF;AAACA,KADTJ;AAEEC,gBAFFD;AAAAA,KAIEA,oBAACU,GAADV;AACEC,gBAASU,YADXX;AAEEG,WAAOC;AAAEQ,YAAMN,EAARF;AAAaC,UAAIC,EAAjBF;AAAsBS,WAAKP,EAA3BF;AAAgCG,SAAGD,EAF5CN;AAESI;AAFTJ,IAJFA,CADFA,CADFD;AADqBe,CAACjB",
+                "names": Array [
+                  "props",
+                  "
+",
+                  "return",
+                  "<",
+                  "data",
+                  "Scene",
+                  "style",
+                  "{",
+                  "left",
+                  ":",
+                  "top",
+                  "width",
+                  "height",
+                  "App",
+                  "'",
+                  "bottom",
+                  "right",
+                  "(",
+                ],
+                "sources": Array [
+                  "code.tsx",
+                ],
+                "sourcesContent": Array [
+                  "import * as React from 'react'
+import * as Utopia from 'utopia-api'
+
+export var App = (props) => {
+  return (
+    <Utopia.View data-uid='aaa'>
+      {<div data-uid='bbb' />}
+    </Utopia.View>
+  )
+}
+
+export var storyboard = (props) => {
+  return (
+    <Storyboard data-uid='utopia-storyboard-uid'>
+      <Scene
+        style={{ left: 0, top: 0, width: 400, height: 400 }}
+        data-uid='scene-aaa'
+      >
+        <App
+          data-uid='app-entity'
+          style={{ bottom: 0, left: 0, right: 0, top: 0 }}
+        />
+      </Scene>
+    </Storyboard>
+  )
+}
+",
+                ],
+                "version": 3,
+              },
+              "transpiledJavascript": "return props => {
+  return React.createElement(Storyboard, {
+    \\"data-uid\\": \\"utopia-storyboard-uid\\"
+  }, React.createElement(Scene, {
+    style: {
+      left: 0,
+      top: 0,
+      width: 400,
+      height: 400
+    },
+    \\"data-uid\\": \\"scene-aaa\\"
+  }, React.createElement(App, {
+    \\"data-uid\\": \\"app-entity\\",
+    style: {
+      bottom: 0,
+      left: 0,
+      right: 0,
+      top: 0
+    }
+  })));
+};",
+              "type": "ATTRIBUTE_OTHER_JAVASCRIPT",
+              "uid": "",
+            },
+            "type": "JS_ASSIGNMENT",
+          },
+        ],
+        "declarationKeyword": "var",
+        "type": "JS_ASSIGNMENT_STATEMENT",
+        "uid": "",
+      },
+    ],
+    "transpiledJavascript": "return (() => {
+  var storyboard = props => {
+    return React.createElement(Storyboard, {
+      \\"data-uid\\": \\"utopia-storyboard-uid\\"
+    }, React.createElement(Scene, {
+      style: {
+        left: 0,
+        top: 0,
+        width: 400,
+        height: 400
+      },
+      \\"data-uid\\": \\"scene-aaa\\"
+    }, React.createElement(App, {
+      \\"data-uid\\": \\"app-entity\\",
+      style: {
+        bottom: 0,
+        left: 0,
+        right: 0,
+        top: 0
+      }
+    })));
+  };
+
+  return utopiaCanvasBlockRanToEnd({
+    storyboard: storyboard
+  });
+})();",
+    "type": "ARBITRARY_JS_BLOCK",
+    "uid": "",
+  },
+  Object {
+    "rawCode": "
+",
+    "type": "UNPARSED_CODE",
+  },
+]
+`;

@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getComponentGroups handles a sub-dependency correctly 1`] = `
+Array [
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": null,
+        "importsToAdd": Object {},
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "App",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "path": "/src/app.js",
+      "type": "PROJECT_COMPONENT_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [],
+    "source": Object {
+      "path": "/src/index.js",
+      "type": "PROJECT_COMPONENT_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [],
+    "source": Object {
+      "path": "/utopia/storyboard.js",
+      "type": "PROJECT_COMPONENT_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": Object {
+          "height": 100,
+          "width": 100,
+        },
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "div",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "HTML_DIV",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "span",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "h1",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "h2",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "p",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "button",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "input",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "video",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "img",
+        "stylePropOptions": Array [
+          "do-not-add",
+          "add-size",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "HTML_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {},
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "Conditional",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "CONDITIONALS_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "Fragment",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "FRAGMENT_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "lists",
+        "importsToAdd": Object {
+          "react": Object {
+            "importedAs": "React",
+            "importedFromWithin": Array [],
+            "importedWithName": null,
+          },
+          "utopia-api": Object {
+            "importedAs": null,
+            "importedFromWithin": Array [
+              Object {
+                "alias": "Placeholder",
+                "name": "Placeholder",
+              },
+            ],
+            "importedWithName": null,
+          },
+        },
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "List",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "MAP_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": null,
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {},
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "Sample text",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "SAMPLES_GROUP",
+    },
+  },
+  Object {
+    "insertableComponents": Array [
+      Object {
+        "defaultSize": Object {
+          "height": 150,
+          "width": 150,
+        },
+        "element": [Function],
+        "icon": "component",
+        "importsToAdd": Object {},
+        "insertionCeiling": Object {
+          "type": "file-root",
+        },
+        "name": "Grid",
+        "stylePropOptions": Array [
+          "do-not-add",
+        ],
+      },
+    ],
+    "source": Object {
+      "type": "HTML_GRID",
+    },
+  },
+  Object {
+    "insertableComponents": Array [],
+    "source": Object {
+      "dependencyName": "@heroicons/react",
+      "dependencyStatus": "loaded",
+      "type": "PROJECT_DEPENDENCY_GROUP",
+    },
+  },
+]
+`;

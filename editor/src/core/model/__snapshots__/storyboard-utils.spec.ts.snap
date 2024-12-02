@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addStoryboardFileToProject adds storyboard file to project that does not have one 1`] = `
+Array [
+  Object {
+    "rawCode": "
+
+",
+    "type": "UNPARSED_CODE",
+  },
+  Object {
+    "arbitraryJSBlock": null,
+    "blockOrExpression": "block",
+    "declarationSyntax": "const",
+    "functionWrapping": Array [],
+    "isFunction": false,
+    "name": "storyboard",
+    "params": null,
+    "propsUsed": Array [],
+    "returnStatementComments": Object {
+      "leadingComments": Array [],
+      "trailingComments": Array [],
+    },
+    "rootElement": Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": Object {
+                "baseVariable": "App",
+                "propertyPath": Object {
+                  "propertyElements": Array [],
+                },
+              },
+              "props": Array [
+                Object {
+                  "comments": Object {
+                    "leadingComments": Array [],
+                    "trailingComments": Array [],
+                  },
+                  "key": "data-uid",
+                  "type": "JSX_ATTRIBUTES_ENTRY",
+                  "value": Object {
+                    "comments": Object {
+                      "leadingComments": Array [],
+                      "trailingComments": Array [],
+                    },
+                    "type": "ATTRIBUTE_VALUE",
+                    "uid": "",
+                    "value": "9d2",
+                  },
+                },
+              ],
+              "type": "JSX_ELEMENT",
+              "uid": "",
+            },
+          ],
+          "name": Object {
+            "baseVariable": "Scene",
+            "propertyPath": Object {
+              "propertyElements": Array [],
+            },
+          },
+          "props": Array [
+            Object {
+              "comments": Object {
+                "leadingComments": Array [],
+                "trailingComments": Array [],
+              },
+              "key": "data-uid",
+              "type": "JSX_ATTRIBUTES_ENTRY",
+              "value": Object {
+                "comments": Object {
+                  "leadingComments": Array [],
+                  "trailingComments": Array [],
+                },
+                "type": "ATTRIBUTE_VALUE",
+                "uid": "",
+                "value": "scene-1",
+              },
+            },
+            Object {
+              "comments": Object {
+                "leadingComments": Array [],
+                "trailingComments": Array [],
+              },
+              "key": "style",
+              "type": "JSX_ATTRIBUTES_ENTRY",
+              "value": Object {
+                "comments": Object {
+                  "leadingComments": Array [],
+                  "trailingComments": Array [],
+                },
+                "type": "ATTRIBUTE_VALUE",
+                "uid": "",
+                "value": Object {
+                  "height": 812,
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": 375,
+                },
+              },
+            },
+          ],
+          "type": "JSX_ELEMENT",
+          "uid": "",
+        },
+      ],
+      "name": Object {
+        "baseVariable": "Storyboard",
+        "propertyPath": Object {
+          "propertyElements": Array [],
+        },
+      },
+      "props": Array [
+        Object {
+          "comments": Object {
+            "leadingComments": Array [],
+            "trailingComments": Array [],
+          },
+          "key": "data-uid",
+          "type": "JSX_ATTRIBUTES_ENTRY",
+          "value": Object {
+            "comments": Object {
+              "leadingComments": Array [],
+              "trailingComments": Array [],
+            },
+            "type": "ATTRIBUTE_VALUE",
+            "uid": "",
+            "value": "utopia-storyboard-uid",
+          },
+        },
+      ],
+      "type": "JSX_ELEMENT",
+      "uid": "",
+    },
+    "type": "UTOPIA_JSX_COMPONENT",
+    "usedInReactDOMRender": false,
+  },
+]
+`;
